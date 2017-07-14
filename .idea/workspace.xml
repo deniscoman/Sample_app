@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5717afa-f7bf-403f-a634-487f024f2761" name="Default" comment="">
+    <list default="true" id="e5717afa-f7bf-403f-a634-487f024f2761" name="Default" comment="SE">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/users.yml" afterPath="$PROJECT_DIR$/test/fixtures/users.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/models/user_test.rb" afterPath="$PROJECT_DIR$/test/models/user_test.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -103,8 +100,8 @@
       <file leaf-file-name="user.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="131" lean-forward="false" selection-start-line="3" selection-start-column="131" selection-end-line="3" selection-end-column="131" />
+            <state relative-caret-position="15">
+              <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -168,9 +165,9 @@
         <option value="$PROJECT_DIR$/app/views/users/new.html.erb" />
         <option value="$PROJECT_DIR$/test/integration/site_layout_test.rb" />
         <option value="$PROJECT_DIR$/test/models/user_test.rb" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20170714111249_add_index_to_users_email.rb" />
         <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -866,7 +863,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499760733840</updated>
-      <workItem from="1499760735863" duration="21375000" />
+      <workItem from="1499760735863" duration="21543000" />
     </task>
     <task id="LOCAL-00001" summary="Setting the root route to home">
       <created>1499774018105</created>
@@ -882,7 +879,14 @@
       <option name="project" value="LOCAL" />
       <updated>1499952004581</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add index to email">
+      <created>1500031089824</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1500031089824</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -894,7 +898,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21375000" />
+    <option name="totallyTimeSpent" value="21543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -929,7 +933,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setting the root route to home" />
     <MESSAGE value="Add user model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add user model" />
+    <MESSAGE value="Add index to email" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add index to email" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1316,8 +1321,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="131" lean-forward="false" selection-start-line="3" selection-start-column="131" selection-end-line="3" selection-end-column="131" />
+        <state relative-caret-position="15">
+          <caret line="1" column="42" lean-forward="false" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
           <folding />
         </state>
       </provider>
