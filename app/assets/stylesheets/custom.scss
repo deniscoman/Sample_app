@@ -106,11 +106,11 @@ footer {
   /* miscellaneous */
 
   .debug_dump {
-  clear: both;
-  float: left;
-  width: 100%;
-  margin-top: 45px;
-  @include box_sizing;
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 45px;
+    @include box_sizing;
   }
 
   /* sidebar */
@@ -177,4 +177,15 @@ footer {
     margin-left: 0;
   }
 
+  /* Users index */
+
+  .users {
+    list-style: none;
+    margin: 0;
+    li {
+      overflow: auto;
+      padding: 10px 0;
+      border-bottom: 1px solid $gray-lighter;
+    }
+  }
 }
