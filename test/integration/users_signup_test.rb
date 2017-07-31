@@ -48,4 +48,10 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     assert_template 'users/show'
     assert is_logged_in?
   end
+
+
+  test "route generate corectly " do
+    assert_recognizes({controller: "account_activations", action: "edit", id: "p2a6yNwdV0_1cPU5FcxJwA", email: "denis@denis.com"},
+                      "account_activations/p2a6yNwdV0_1cPU5FcxJwA/edit", {email: "denis@denis.com"})
+  end
 end
